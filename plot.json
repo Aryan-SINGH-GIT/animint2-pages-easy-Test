@@ -13,7 +13,7 @@
 "na.rm": false,
 "na.rm": false,
 "label": "Source: palmerpenguins",
-"size":        6 
+"size":       10 
 },
 "types": {
  "x": "numeric",
@@ -40,7 +40,7 @@
 "params": {
  "na.rm": false,
 "na.rm": false,
-"size":        2,
+"size":        3,
 "alpha":      0.7,
 "showSelected": "species",
 "help_showSelected": "species" 
@@ -262,7 +262,7 @@
 ] 
 },
 "scatter": {
- "panel_margin_lines":     0.32,
+ "panel_margin_lines":     0.41,
 "legend": {
  "Species": {
  "guide": "legend",
@@ -272,13 +272,13 @@
 "selector": "species",
 "is_discrete": true,
 "legend_type": "colour",
-"text_size": "11.2pt",
-"title_size": "14pt",
+"text_size": "16pt",
+"title_size": "18pt",
 "entries": [
  {
  "pointcolour": "#F8766D",
 "pointshape":       21,
-"pointsize":        2,
+"pointsize":        3,
 "pointalpha":      0.7,
 "pointstroke":      0.5,
 "label": "Adelie" 
@@ -286,7 +286,7 @@
 {
  "pointcolour": "#00BA38",
 "pointshape":       21,
-"pointsize":        2,
+"pointsize":        3,
 "pointalpha":      0.7,
 "pointstroke":      0.5,
 "label": "Chinstrap" 
@@ -294,7 +294,7 @@
 {
  "pointcolour": "#619CFF",
 "pointshape":       21,
-"pointsize":        2,
+"pointsize":        3,
 "pointalpha":      0.7,
 "pointstroke":      0.5,
 "label": "Gentoo" 
@@ -460,13 +460,13 @@
 "yticks": true 
 },
 "xtitle": "Flipper length (mm)",
-"strip_text_xsize": "14pt",
-"xsize": "12pt",
+"strip_text_xsize": "18pt",
+"xsize": "16pt",
 "xangle":        0,
 "xanchor": "middle",
 "ytitle": "Body mass (g)",
-"strip_text_ysize": "14pt",
-"ysize": "12pt",
+"strip_text_ysize": "18pt",
+"ysize": "16pt",
 "yangle":        0,
 "yanchor": "end",
 "xlabs": [
@@ -489,7 +489,7 @@
 "6000",
 "6500" 
 ],
-"title_size": "16.8pt",
+"title_size": "21.6pt",
 "options": {
  "width":      400,
 "height":      400 
@@ -504,7 +504,7 @@
 ] 
 },
 "hist": {
- "panel_margin_lines":     0.32,
+ "panel_margin_lines":     0.41,
 "legend": {
  "Species": {
  "guide": "legend",
@@ -514,8 +514,8 @@
 "selector": "species",
 "is_discrete": true,
 "legend_type": "fill",
-"text_size": "11.2pt",
-"title_size": "14pt",
+"text_size": "16pt",
+"title_size": "18pt",
 "entries": [
  {
  "polygonfill": "#F8766D",
@@ -745,13 +745,13 @@
 "yticks": true 
 },
 "xtitle": "Value",
-"strip_text_xsize": "12pt",
-"xsize": "12pt",
+"strip_text_xsize": "16pt",
+"xsize": "16pt",
 "xangle":        0,
 "xanchor": "middle",
 "ytitle": "Count",
-"strip_text_ysize": "12pt",
-"ysize": "12pt",
+"strip_text_ysize": "16pt",
+"ysize": "16pt",
 "yangle":        0,
 "yanchor": "end",
 "xlabs": [
@@ -772,7 +772,7 @@
 "20",
 "25" 
 ],
-"title_size": "16.8pt",
+"title_size": "21.6pt",
 "options": {
  "width":      400,
 "height":      400 
