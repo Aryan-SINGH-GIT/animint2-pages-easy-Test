@@ -345,7 +345,7 @@
 ] 
 },
 "hist": {
- "panel_margin_lines":     0.23,
+ "panel_margin_lines":     0.34,
 "legend": {
  "Species": {
  "guide": "legend",
@@ -355,8 +355,8 @@
 "selector": "species",
 "is_discrete": true,
 "legend_type": "fill",
-"text_size": "8pt",
-"title_size": "10pt",
+"text_size": "12pt",
+"title_size": "15pt",
 "entries": [
  {
  "polygonfill": "#F8766D",
@@ -568,13 +568,13 @@
 "yticks": true 
 },
 "xtitle": "Measurement Value",
-"strip_text_xsize": "10pt",
-"xsize": "10pt",
+"strip_text_xsize": "15pt",
+"xsize": "15pt",
 "xangle":        0,
 "xanchor": "middle",
 "ytitle": "Count",
-"strip_text_ysize": "10pt",
-"ysize": "10pt",
+"strip_text_ysize": "15pt",
+"ysize": "15pt",
 "yangle":        0,
 "yanchor": "end",
 "xlabs": [
@@ -592,7 +592,7 @@
 "20",
 "30" 
 ],
-"title_size": "12pt",
+"title_size": "18pt",
 "options": {
  "width":      400,
 "height":      400 
