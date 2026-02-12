@@ -12,7 +12,7 @@
 "params": {
  "na.rm": false,
 "na.rm": false,
-"size":        4,
+"size":        2,
 "alpha":      0.7,
 "showSelected": "species",
 "help_showSelected": "species" 
@@ -46,7 +46,7 @@
 },
 "params": {
  "na.rm": false,
-"bins":       30,
+"bins":       20,
 "na.rm": false,
 "pad": false,
 "alpha":      0.6,
@@ -97,7 +97,7 @@
 },
 "plots": {
  "scatter": {
- "panel_margin_lines":     0.55,
+ "panel_margin_lines":     0.32,
 "legend": {
  "Species": {
  "guide": "legend",
@@ -107,13 +107,13 @@
 "selector": "species",
 "is_discrete": true,
 "legend_type": "colour",
-"text_size": "22pt",
-"title_size": "24pt",
+"text_size": "11.2pt",
+"title_size": "14pt",
 "entries": [
  {
  "pointcolour": "#F8766D",
 "pointshape":       21,
-"pointsize":        4,
+"pointsize":        2,
 "pointalpha":      0.7,
 "pointstroke":      0.5,
 "label": "Adelie" 
@@ -121,7 +121,7 @@
 {
  "pointcolour": "#00BA38",
 "pointshape":       21,
-"pointsize":        4,
+"pointsize":        2,
 "pointalpha":      0.7,
 "pointstroke":      0.5,
 "label": "Chinstrap" 
@@ -129,7 +129,7 @@
 {
  "pointcolour": "#619CFF",
 "pointshape":       21,
-"pointsize":        4,
+"pointsize":        2,
 "pointalpha":      0.7,
 "pointstroke":      0.5,
 "label": "Gentoo" 
@@ -167,10 +167,15 @@
 "size":      0.5,
 "linetype":        1 
 },
-"panel_border": [],
-"grid_major": {
- "colour": "#000000",
+"panel_border": {
+ "fill": "transparent",
+"colour": "#7F7F7F",
 "size":      0.5,
+"linetype":        1 
+},
+"grid_major": {
+ "colour": "#E5E5E5",
+"size":      0.2,
 "linetype":        1,
 "lineend": "butt",
 "loc": {
@@ -201,7 +206,7 @@
 } 
 },
 "grid_minor": {
- "colour": "#000000",
+ "colour": "#FAFAFA",
 "size":      0.5,
 "linetype":        1,
 "lineend": "butt",
@@ -220,7 +225,8 @@
      215,
      220,
      225,
-     230 
+     230,
+     235 
 ] 
 ],
 "y": [
@@ -265,7 +271,7 @@
 "220",
 "230" 
 ],
-"xrange": [      167,      233 ],
+"xrange": [   166.75,   238.25 ],
 "xline": false,
 "xticks": true,
 "y": [
@@ -295,13 +301,13 @@
 "yticks": true 
 },
 "xtitle": "Flipper length (mm)",
-"strip_text_xsize": "24pt",
-"xsize": "22pt",
+"strip_text_xsize": "14pt",
+"xsize": "14pt",
 "xangle":        0,
 "xanchor": "middle",
 "ytitle": "Body mass (g)",
-"strip_text_ysize": "24pt",
-"ysize": "22pt",
+"strip_text_ysize": "14pt",
+"ysize": "14pt",
 "yangle":        0,
 "yanchor": "end",
 "xlabs": [
@@ -324,7 +330,7 @@
 "6000",
 "6500" 
 ],
-"title_size": "28.8pt",
+"title_size": "16.8pt",
 "options": {
  "width":      400,
 "height":      400 
@@ -339,7 +345,7 @@
 ] 
 },
 "hist": {
- "panel_margin_lines":     0.55,
+ "panel_margin_lines":     0.32,
 "legend": {
  "Species": {
  "guide": "legend",
@@ -349,8 +355,8 @@
 "selector": "species",
 "is_discrete": true,
 "legend_type": "fill",
-"text_size": "22pt",
-"title_size": "24pt",
+"text_size": "11.2pt",
+"title_size": "14pt",
 "entries": [
  {
  "polygonfill": "#F8766D",
@@ -408,20 +414,24 @@
 "size":      0.5,
 "linetype":        1 
 },
-"panel_border": [],
-"grid_major": {
- "colour": "#000000",
+"panel_border": {
+ "fill": "transparent",
+"colour": "#7F7F7F",
 "size":      0.5,
+"linetype":        1 
+},
+"grid_major": {
+ "colour": "#E5E5E5",
+"size":      0.2,
 "linetype":        1,
 "lineend": "butt",
 "loc": {
  "x": [
  [
-     2500,
-    3500,
-    4500,
-    5500,
-    6500 
+     3000,
+    4000,
+    5000,
+    6000 
 ],
 [
       180,
@@ -432,25 +442,21 @@
 "y": [
  [
         0,
-       5,
       10,
-      15,
       20,
-      25 
+      30 
 ],
 [
         0,
-       5,
       10,
-      15,
       20,
-      25 
+      30 
 ] 
 ] 
 } 
 },
 "grid_minor": {
- "colour": "#000000",
+ "colour": "#FAFAFA",
 "size":      0.5,
 "linetype":        1,
 "lineend": "butt",
@@ -480,68 +486,54 @@
 "y": [
  [
         0,
-     2.5,
        5,
-     7.5,
       10,
-    12.5,
       15,
-    17.5,
       20,
-    22.5,
-      25 
+      25,
+      30 
 ],
 [
         0,
-     2.5,
        5,
-     7.5,
       10,
-    12.5,
       15,
-    17.5,
       20,
-    22.5,
-      25 
+      25,
+      30 
 ] 
 ] 
 } 
 },
 "axis1": {
  "x": [
-     2500,
-    3500,
-    4500,
-    5500,
-    6500 
+     3000,
+    4000,
+    5000,
+    6000 
 ],
 "xlab": [
- "2500",
-"3500",
-"4500",
-"5500",
-"6500" 
+ "3000",
+"4000",
+"5000",
+"6000" 
 ],
-"xrange": [ 2482.759,  6579.31 ],
+"xrange": [ 2368.421, 6536.842 ],
 "xline": false,
 "xticks": true,
 "y": [
         0,
-       5,
       10,
-      15,
       20,
-      25 
+      30 
 ],
 "ylab": [
  "0",
-"5",
 "10",
-"15",
 "20",
-"25" 
+"30" 
 ],
-"yrange": [    -1.25,    26.25 ],
+"yrange": [     -1.5,     31.5 ],
 "yline": false,
 "yticks": true 
 },
@@ -556,58 +548,51 @@
 "200",
 "220" 
 ],
-"xrange": [ 168.8621,      236 ],
+"xrange": [ 166.1316, 234.4474 ],
 "xline": false,
 "xticks": true,
 "y": [
         0,
-       5,
       10,
-      15,
       20,
-      25 
+      30 
 ],
 "ylab": [
  "0",
-"5",
 "10",
-"15",
 "20",
-"25" 
+"30" 
 ],
-"yrange": [    -1.25,    26.25 ],
+"yrange": [     -1.5,     31.5 ],
 "yline": false,
 "yticks": true 
 },
-"xtitle": "Value",
-"strip_text_xsize": "22pt",
-"xsize": "22pt",
+"xtitle": "Measurement Value",
+"strip_text_xsize": "14pt",
+"xsize": "14pt",
 "xangle":        0,
 "xanchor": "middle",
 "ytitle": "Count",
-"strip_text_ysize": "22pt",
-"ysize": "22pt",
+"strip_text_ysize": "14pt",
+"ysize": "14pt",
 "yangle":        0,
 "yanchor": "end",
 "xlabs": [
- "2500",
-"3500",
-"4500",
-"5500",
-"6500",
+ "3000",
+"4000",
+"5000",
+"6000",
 "180",
 "200",
 "220" 
 ],
 "ylabs": [
  "0",
-"5",
 "10",
-"15",
 "20",
-"25" 
+"30" 
 ],
-"title_size": "28.8pt",
+"title_size": "16.8pt",
 "options": {
  "width":      400,
 "height":      400 
@@ -622,6 +607,6 @@
 ] 
 } 
 },
-"source": "https://github.com/Aryan-SINGH-GIT/animated-interactive-ggplots/blob/master/01_animint2_pages/basic_animint.R",
-"title": "plot" 
+"source": "https://github.com/Aryan-SINGH-GIT/animint2-pages-easy-Test",
+"title": "Penguin Sizes by Species" 
 }
